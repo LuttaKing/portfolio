@@ -1,264 +1,250 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Denilson Washuma | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="Denilson Washuma, Denilson Washuma, Mobile Developer" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Denilson Washuma | Mobile Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+  <title>Denilson Washuma | Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="Denilson Washuma, Denilson Washuma, Mobile Developer" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Denilson Washuma | Mobile Developer" />
 
-    
-  </head>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
 
-  <body>
-    <div id="top"></div>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hello, I am <span class="text-color-main">Denilson Washuma</span>
-          <br />
-          The Nomadic Mobile & Backend Developer.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-        </p>
+</head>
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hello, I am <span class="text-color-main">Denilson Washuma</span>
+        <br />
+        The Nomadic Mobile & Backend Developer.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero  -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/prof2.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am a mobile developer that focuses on front-end frameworks such as
+              Flutter and Vue.I have a passion for good Design Principles and User Accessibility.
+              I also love working with server-less technologies like Firebase and Azure.Depending
+              on the task at hand,I may also use Python's Django and Postgresql for the backend.
+            </p>
+            <p class="about-wrapper__info-text">
+              Continuous learning is my first priority as a developer. Striving to write clean code
+              with a passion for creative problem solving while learning new technologies.
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume" href="#projects">
+                View Projects
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About-->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/prof2.jpg"
-                alt="Profile Image"
-              />
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Fun Facts - Facto</h3>
+              <div>
+                <p class="mb-4">
+                  The Facto Project is a user friendly mobile app that displays facts
+                  about different aspects of life.I built this app to test the awesome
+                  power of Graphql.<br />The UI was carefully and beautifully crafted using
+                  Flutter while the API I wrote with Django.There is so much to this
+                  app than meets the eye,you should check it out.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://play.google.com/store/apps/details?id=com.lutta.facts">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://play.google.com/store/apps/details?id=com.lutta.facts">
+                Find It on PlayStore
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                I am a mobile developer that focuses on front-end frameworks such as
-                Flutter and Vue.I have a passion for good Design Principles and User Accessibility.
-                I also love working with server-less technologies like Firebase and Azure.Depending
-                on the task at hand,I may also use Python's Django and Postgresql for the backend.
-              </p>
-              <p class="about-wrapper__info-text">
-                Continuous learning is my first priority as a developer. Striving to write clean code
-                with a passion for creative problem solving while learning new technologies.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="#projects">
-                  View Projects
-                </a>
-              </span>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/banner.png" />
+              </div>
+
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
+        <!-- /END Project -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Fun Facts - Facto</h3>
-                <div>
-                  <p class="mb-4">
-                   The Facto Project is a user friendly mobile app that displays facts
-                   about different aspects of life.I built this app to test the awesome 
-                   power of Graphql.<br />The UI was carefully and beautifully crafted using
-                   Flutter while the API I wrote with Django.There is so much to this
-                   app than meets the eye,you should check it out.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://play.google.com/store/apps/details?id=com.lutta.facts">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://play.google.com/store/apps/details?id=com.lutta.facts">
-                  Find It on PlayStore
-                </a>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Healthy Bites</h3>
+              <div>
+                <p class="mb-4">
+                  Healthy Bites is a demo food delivery app that I built to test and showcase
+                  the perks of Flutter's smooth animations and 60 fps native performance compared
+                  to mobile apps built with Java.<br />As a bonus, I integrated a solid authentication
+                  system through Firebase ,with options to log in with Facebook or Google
+                  for a smooth user experience.
+                </p>
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-               
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/banner.png" />
-                  </div>
-                
-              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://play.google.com/store/apps/details?id=com.denilson.healthybites">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/LuttaKing/healthybites">
+                Source Code
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Healthy Bites</h3>
-                <div>
-                  <p class="mb-4">
-                    Healthy Bites is a demo food delivery app that I built to test and showcase 
-                    the perks of Flutter's smooth animations and 60 fps native performance compared 
-                    to mobile apps built with Java.<br />As a bonus, I integrated a solid authentication
-                    system through Firebase ,with options to log in with Facebook or Google
-                    for a smooth user experience.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://play.google.com/store/apps/details?id=com.denilson.healthybites">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/LuttaKing/healthybites">
-                  Source Code
-                </a>
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/bites.png" />
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/bites.png" />
-                  </div>
-              
-              </div>
+
             </div>
           </div>
-          <!-- /END Project -->
+        </div>
+        <!-- /END Project -->
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">iOS App - In Development</h3>
-                <div>
-                  <p class="mb-4">
-                   Psst; <br />You'll love this one...😉
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="">
-                  In Development
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="">
-                  Coming soon
-                </a>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">iOS App - In Development</h3>
+              <div>
+                <p class="mb-4">
+                  Psst; <br />You'll love this one...😉
+                </p>
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-            
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/iOS.png" />
-                  </div>
-             
-              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="">
+                In Development
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="">
+                Coming soon
+              </a>
             </div>
           </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
 
-          <p class="footer__textw">
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/iOS.png" />
+              </div>
 
-            <a target="_blank" class="cta-btn" href="https://github.com/LuttaKing">
-              View All Projects
-            </a>
-          </p>
-           
-         
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            I would like to work with you,
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:denilsonwash@gmail.com"
-            >Let's Talk</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="https://twitter.com/Luttman_" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <!-- <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a> -->
-          <a href="https://www.linkedin.com/in/denilson-washuma-608363161?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcZZBuM%2FoQtGIISzMkMY6jg%3D%3D" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/LuttaKing" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
+            </div>
+          </div>
         </div>
 
-        <hr />
+        <p class="footer__textw">
 
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2021 - Portfolio developed by <a href="https://github.com/LuttaKing" target="_blank">Denilson Washuma</a>
+          <a target="_blank" class="cta-btn" href="https://github.com/LuttaKing">
+            View All Projects
           </a>
         </p>
 
-        
+        <!-- /END Project -->
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          I would like to work with you,
+        </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:denilsonwash@gmail.com">Let's Talk</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://twitter.com/Luttman_" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/denilson-washuma-608363161?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcZZBuM%2FoQtGIISzMkMY6jg%3D%3D"
+          target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/LuttaKing" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <p class="footer__text">
+        © 2021 - Portfolio developed by <a href="https://github.com/LuttaKing" target="_blank">Denilson Washuma</a>
+        </a>
+      </p>
+
+
+    </div>
+  </footer>
+
+</body>
+
 </html>
